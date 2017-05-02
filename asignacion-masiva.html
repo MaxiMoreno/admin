@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Planificador de Obras</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>Sistema Planificador de Obras</h1>
+
+</div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Planificador</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Carga Masiva</a></li>
+                <li><a href="#">Asignacion Masiva</a></li>
+                <li><a href="#">Expandir Todo</a></li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <input type="text" class="form-control" placeholder="Search...">
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <img src="img/logo.jpg"
+                 alt="logo"
+                 width="100px"/>
+            <ul class="nav nav-sidebar">
+                <li><a href="home.html">Listado de planificaciones </a></li>
+                <li class="active"><a href="asignacion-masiva.html">Asignacion Masiva Personas a Tarea</a></li>
+                <li><a href="#">Personal a cargo</a></li>
+                <li><a href="#">Listado de Materias</a></li>
+                <li><a href="#">Listado de Unidades</a></li>
+                <li><a href="#">Clases</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <h1 class="page-header">Asignacion Masiva de Personas a Tarea</h1>
+
+            <h2 class="sub-header">
+                Asignacion Masiva
+                <button type="button" class="btn btn-default" onclick="$('#ventanita').toggle();">Mostrar Detalle</button>
+            </h2>
+
+            <div style="float: left;" id="ventanita">
+                <div style="float: left;">
+                    <h3>Usuario</h3>
+                    <ul>
+                        <li>Maxi</li>
+                        <li>Juanjo</li>
+                        <li>Fede</li>
+                    </ul>
+                </div>
+
+                <div style="float: left; margin: 35px;" >  <h3>></h3>  </div>
+
+                <div style="float: left; " >
+                    <h3>Seleccionados</h3>
+                    <ul>
+                        <li>----</li>
+                        <li>----</li>
+                        <li>----</li>
+                    </ul>
+                </div>
+
+                <div style="float: left; clear: left">
+                    <h3>Tareas-Area</h3>
+                    <ul>
+                        <li>Cavar la cochinchina</li>
+                        <li>Levantar</li>
+                        <li>Rellenar</li>
+                    </ul>
+                </div>
+
+                <div style="float: left; margin: 35px;" >  <h3>></h3>  </div>
+
+                <div style="float: left;" >
+                    <h3>Seleccionados</h3>
+                    <ul>
+                        <li>----</li>
+                        <li>----</li>
+                        <li>----</li>
+                    </ul>
+                </div>
+
+
+                <div style="float: left; margin: 35px;" >  <h3></h3> </div>
+
+
+                <div style="float: left; clear: left;" >
+                    <h3>Lugar Ejecucion</h3>
+                    <ul>
+                        <li>Las toninas</li>
+                        <li>Las catitas</li>
+                        <li>Lomitas</li>
+                    </ul>
+                </div>
+                
+                <div style="float: left; margin: 35px;" >  <h3>></h3>  </div>
+
+                <div style="float: left;" >
+                    <h3>Seleccionados</h3>
+                    <ul>
+                        <li>----</li>
+                        <li>----</li>
+                        <li>----</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+
+
+</script>
+
+</html>
